@@ -48,7 +48,8 @@ main {
   gap: 88px;
 }
 
-.project img, .project-info {
+.project img,
+.project-info {
   width: 50%;
 }
 
@@ -73,4 +74,40 @@ main {
   line-height: 28px;
   margin-top: 24px;
   padding: 16px 36px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  width: 555px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: space-between;
+  width: 292px;
+}
+
+.contact img {
+  width: 32px;
+  height: 32px;
 }
