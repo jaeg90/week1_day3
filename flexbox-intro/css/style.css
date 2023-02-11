@@ -1,0 +1,33 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 800px;
+  background-color: aqua;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red {
+  background-color: red;
+}
+
+#special-square {
+  order: 1;
+  align-self: flex-end;
+}
